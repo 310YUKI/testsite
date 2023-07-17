@@ -1,0 +1,139 @@
+/* 全体設定 */
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family:
+  "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+header {
+  background-color: #eff4f8;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 2%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  flex:0.8;
+}
+
+.logo__img {
+  height: 8vw;
+  width: auto;
+  padding-right: 2%;
+}
+
+.corporate__name{
+  display: flex;
+}
+
+.title {
+  font-size: 1.5vw;
+}
+
+.sub__title {
+  font-size: 1vw;
+  display: block;
+}
+
+.nav__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  flex:1;
+
+}
+
+.nav__upper {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  margin-bottom: 20px;
+}
+
+.upper__list {
+  padding-left: 20px;
+  font-size: 1vw;
+}
+
+.upper__list::before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url("images/button.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+
+}
+
+.nav__under {
+  display: flex;
+  justify-content: end;
+}
+
+.nav__tel {
+  display: flex;
+  list-style: none;
+  align-content: flex-start;
+}
+
+.tel__number {
+  font-size: 2vw;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.service__time {
+  padding-right: 20px;
+  font-size: 1vw;
+}
+
+.member__menu {
+  display: flex;
+}
+
+.sign__up {
+  height: 5vw;
+  width: 15vw;
+  max-height: 50px;
+  max-width: 150px;
+  color: #ffffff;
+  background-color: #c41830;
+  margin-right: 1vw;
+  font-size: 15px;
+  border: 0;
+}
+
+.login {
+  height: 5vw;
+  width: 15vw;
+  max-height: 50px;
+  max-width: 150px;
+  font-size: 15px;
+  border: 0;
+  background-color: #ffffff;
+}
